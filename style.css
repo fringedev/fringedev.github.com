@@ -1,0 +1,95 @@
+@import url('reset.css');
+@import url(http://fonts.googleapis.com/css?family=Six+Caps|Actor|Forum|Permanent+Marker);
+
+body {
+    background-image: url('images/background.jpg');
+    }
+
+a, a:visited, a:active, a:hover, a:active {
+    text-decoration: none;
+    color: #3365e6;
+    }
+    a:hover, a:active {
+        color: #264fb5;
+        }
+
+div#content {
+    margin-bottom: 150px;
+    }
+    div#content div.separator {
+        border-top: 3px solid black;
+        border-bottom: 5px solid black;
+        border-left: none;
+        border-right: none;
+        margin-top: 50px;
+        width: 100%;
+        height: 4px;
+        }
+
+div#page_title {
+    text-align: center;
+    margin-top: 75px;
+    }
+    div#page_title h1 {
+        font-family: 'Six Caps', sans-serif;
+        font-size: 250px;
+        }
+div#page_title_location {
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 75px;
+    }
+    div#page_title_location span {
+        font-family: 'Actor', sans-serif;
+        font-size: 50px;
+        letter-spacing: 31px;
+        padding-left: 15px;
+        text-transform: uppercase;
+        }
+div#page_title_twitter {
+    text-align: left;
+    margin-top: -20px;
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    }
+    div#page_title_twitter span {
+        font-family: 'Permanent Marker', sans-serif;
+        font-size: 30px;
+        color: #444;
+        }
+div#page_title_press {
+    padding-top: 50px;
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 30px;
+    color: #444;
+    }
+    div#page_title_press div#press_mtw {
+        -webkit-transform: rotate(3deg);
+        -moz-transform: rotate(3deg);
+        }
+
+
+div.content_block {
+    margin-top: 20px;
+    }
+    div.no_header {
+        margin-top: 60px;
+        }
+    div.content_block h2 {
+        font-family: 'Permanent Marker', sans-serif;
+        font-size: 26px;
+        font-weight: bold;
+        margin: 0 0 13px 20px;
+        }
+    div.content_block p {
+        font-family: 'Forum', sans-serif;
+        font-size: 20px;
+        text-align: justify;
+        text-indent: 20px;
+        margin-bottom: 7px;
+        letter-spacing: 1px;
+        line-height: 120%;
+        }
+        div.content_block p i {
+            color: #555;
+            }
