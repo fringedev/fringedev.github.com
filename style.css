@@ -55,13 +55,13 @@ div#page_title_twitter {
     div#page_title_twitter span {
         font-family: 'Permanent Marker', sans-serif;
         font-size: 30px;
-        color: #444;
+        color: #333;
         }
 div#page_title_press {
     padding-top: 50px;
     font-family: 'Permanent Marker', sans-serif;
     font-size: 30px;
-    color: #444;
+    color: #333;
     }
     div#page_title_press div#press_mtw {
         -webkit-transform: rotate(3deg);
