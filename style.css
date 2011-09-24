@@ -48,15 +48,24 @@ div#page_title_location {
         }
 div#page_title_twitter {
     text-align: left;
-    margin-top: -20px;
-    -webkit-transform: rotate(-10deg);
-    -moz-transform: rotate(-10deg);
+    margin-top: 60px;
+    margin-left: 50px;
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 30px;
+    color: #333;
     }
-    div#page_title_twitter span {
-        font-family: 'Permanent Marker', sans-serif;
-        font-size: 30px;
-        color: #333;
-        }
+div#page_title_googlegroup {
+    text-align: right;
+    margin-top: 20px;
+    margin-left: 10px;
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 30px;
+    color: #333;
+    }
 div#page_title_press {
     padding-top: 50px;
     font-family: 'Permanent Marker', sans-serif;
